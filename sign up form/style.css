@@ -56,3 +56,27 @@ footer{
 footer,#foo{
 	text-align: right;
 }
+
+@media screen and (max-width: 700px ) {
+  body {
+    font-size: 12px;
+  }
+  header {
+    padding: 1em 0;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+  div.key-container {
+    margin-bottom: 2em;
+  }
+  button.looper {
+    font-size: 2em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+  }
+}
+
+@media screen and ( max-width: 400px ) {
+
+}
