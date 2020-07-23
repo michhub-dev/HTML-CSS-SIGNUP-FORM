@@ -66,17 +66,9 @@ footer,#foo{
   }
   h1 {
     font-size: 1.2em;
-  }
-  div.key-container {
-    margin-bottom: 2em;
-  }
-  button.looper {
-    font-size: 2em;
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-  }
+}
 }
 
-@media screen and ( max-width: 400px ) {
+@media screen and ( max-width: 1180px ) {
 
 }
